@@ -178,16 +178,20 @@ p {
 
 .info-container {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: space-between;
 }
 
+.right {
+  width: 40%;
+}
+
 .esperienza-section {
-  width: 50%;
+  width: 60%;
 }
 
 .esperienza-title {
-  width: 62%;
+  width: 60%;
   padding-right: 30px;
   border-radius: 0 35px 35px 0;
   color: #e5e6e6;
@@ -195,9 +199,13 @@ p {
   text-align: right;
 }
 
-.studi-section {
-  width: 50%;
+.esperienza-section li {
+  margin-bottom: 20px;
 }
+
+/* .studi-section {
+  width: 50%;
+} */
 
 .studi-title {
   width: 100%;
@@ -208,26 +216,40 @@ p {
   text-align: left;
 }
 
-.lingue-section {
+/* .lingue-section {
   width: 50%;
-}
+} */
 
 .lingue-title {
-  width: 69%;
+  /* width: 69%;
   padding-right: 30px;
   border-radius: 0 35px 35px 0;
   color: #e5e6e6;
   background: linear-gradient(to right, #e5e6e6, #195e92 80%);
-  text-align: right;
+  text-align: right; */
+
+  width: 100%;
+  padding-left: 30px;
+  border-radius: 35px 0 0 35px;
+  color: #e5e6e6;
+  background: linear-gradient(to left, #e5e6e6, #195e92 80%);
+  text-align: left;
 }
 
-.competenze-section {
+/* .competenze-section {
   width: 50%;
   padding-left: 50px;
-}
+} */
 
 .competenze-title {
-  width: 92%;
+  /* width: 92%;
+  padding-left: 30px;
+  border-radius: 35px 0 0 35px;
+  color: #e5e6e6;
+  background: linear-gradient(to left, #e5e6e6, #195e92 80%);
+  text-align: left; */
+
+  width: 100%;
   padding-left: 30px;
   border-radius: 35px 0 0 35px;
   color: #e5e6e6;
